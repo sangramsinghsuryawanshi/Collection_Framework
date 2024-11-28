@@ -13,7 +13,7 @@ public class ChangeToMaxProrityQueue {
 	{
 		// TODO Auto-generated method stub
 		PriorityQueue<Integer> ob = new PriorityQueue<Integer>();
-		ob.add(2);
+		ob.add(1);
 		ob.add(1);
 		ob.add(121);
 		ob.add(12);

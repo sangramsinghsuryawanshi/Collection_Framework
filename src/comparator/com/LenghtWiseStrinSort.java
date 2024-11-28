@@ -23,7 +23,7 @@ class Lenght
 	{
 		return name;
 	}
-	
+
 }
 class NameLenght implements Comparator<Lenght>
 {

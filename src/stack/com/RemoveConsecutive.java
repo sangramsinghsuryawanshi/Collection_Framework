@@ -27,7 +27,7 @@ public class RemoveConsecutive
 	    System.out.println("Enter given string: ");
 	    String str = sc.nextLine();
 	    String [] s1 = str.split(" ");
-	    Stack s = new Stack();
+	    Stack<String> s = new Stack<>();
 	    s.add(s1[0]);
 	    for(int i=1;i<s1.length;i++)
 	    {
@@ -41,6 +41,7 @@ public class RemoveConsecutive
 	    	}
 	    }
 	    System.out.println(s.size()+" "+s);
+	    sc.close();
 	}
 }
 //ab aa aa bcd ab

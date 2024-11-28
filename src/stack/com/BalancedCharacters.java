@@ -48,7 +48,7 @@ public class BalancedCharacters
 	    		}
 	    	}
 	    }
-	    return true;
+	    return s.empty();
 	}
 	public static void main(String[] args) 
 	{

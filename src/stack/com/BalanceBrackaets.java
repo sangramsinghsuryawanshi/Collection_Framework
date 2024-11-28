@@ -41,7 +41,7 @@ public class BalanceBrackaets
 				}
 			}
 		}
-		return true;
+		return s.empty();
 	}
 	public static void main(String[] args) 
 	{
