@@ -7,7 +7,7 @@ public class ArrayDequeueMethods
 {
 	public static void main(String[] args) 
 	{
-		ArrayDeque ob = new ArrayDeque();
+		ArrayDeque<Integer> ob = new ArrayDeque<>();
 		ob.add(90);
 		ob.add(70);
 		ob.add(90);
